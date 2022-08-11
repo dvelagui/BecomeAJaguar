@@ -944,9 +944,9 @@ footer {
   text-decoration: none;
 }
 
-@media (min-width: 992px) and (max-width: 1025px)  {
+@media (min-width: 992px) and (max-width: 1400px)  {
 .tab-content .college {
-  padding: 2px;
+  padding: 15px 2px;
 }
 }
 
