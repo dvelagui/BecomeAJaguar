@@ -232,6 +232,12 @@ body>header>div.header-ribbon>div.header-ribbon-button>button {
   padding: 20px;
 }
 
+.paying-video iframe {
+  width: 100%;
+  height: 450px;
+  padding: 20px 55px 15px 55px;
+}
+
 .stats {
   font-family: var(--font-family-title);
   font-style: normal;
@@ -1151,6 +1157,11 @@ footer {
   .card-students-text {
     padding: 15px 0;
   }
+
+  .paying-video iframe {
+    width: 100%;
+    height: 250px;
+}
 
   .passion {
     display: none;
