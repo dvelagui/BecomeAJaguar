@@ -31,13 +31,13 @@ body {
 
 :root {
   /*  colors */
-  --maroon-chamoy: #702E3D;
-  --black-chamoy: #030000;
-  --gray-chamoy: #84888B;
-  --white-chamoy: #FFFFFF;
-  --yellow-chamoy: #FEE61B;
-  --red-light-chamoy: #C12D66;
-  --blue-light-chamoy: #009ADE;
+  --maroon-tamusa: #702E3D;
+  --black-tamusa: #030000;
+  --gray-tamusa: #84888B;
+  --white-tamusa: #FFFFFF;
+  --yellow-tamusa: #FEE61B;
+  --red-light-tamusa: #C12D66;
+  --blue-light-tamusa: #009ADE;
   /* fonts */
   --font-family-title: 'Oswald', sans-serif;
   --font-family-p: 'Arial', sans-serif;
@@ -65,7 +65,7 @@ body {
 
 .nav-link {
   font-family: var(--font-family-title);
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   font-style: normal;
   font-weight: 500;
   font-size: var(--font-bottons);
@@ -74,15 +74,15 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
 }
 
 #navbarNav>ul>li:nth-child(3)>a {
-  color: var(--maroon-chamoy);
+  color: var(--maroon-tamusa);
 }
 
 .navbar-collapse {
@@ -142,7 +142,7 @@ body {
   padding: 40px 20px 40px 40px;
   font-family: var(--font-family-title);
   font-weight: 500;
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   font-size: 3vw;
 }
 
@@ -176,7 +176,7 @@ body {
 
 .header-ribbon-title h2 {
   font-family: var(--font-family-title);
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   font-style: normal;
   font-weight: 500;
   font-size: var(--font-title-h2);
@@ -185,7 +185,7 @@ body {
 
 body>header>div.header-ribbon>div.header-ribbon-button>button {
   font-family: var(--font-family-title);
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -194,7 +194,7 @@ body>header>div.header-ribbon>div.header-ribbon-button>button {
 }
 
 .about-video {
-  background-image: url('../assets/tamusa-baj-videobg.png');
+  background-image: url('../assets/about/tamusa-baj-videobg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -244,7 +244,7 @@ body>header>div.header-ribbon>div.header-ribbon-button>button {
   font-weight: 500;
   font-size: 32px;
   line-height: 125%;
-  color: var(--maroon-chamoy);
+  color: var(--maroon-tamusa);
   padding: 40px 30px;
 }
 
@@ -395,7 +395,7 @@ a:hover~.img-wrapper {
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
-  color: var(--black-chamoy)
+  color: var(--black-tamusa)
 }
 
 .wrap {
@@ -418,25 +418,25 @@ a:hover~.img-wrapper {
 .card-first-year {
   width: 100%;
   height: 100%;
-  background-color: var(--maroon-chamoy);
+  background-color: var(--maroon-tamusa);
 }
 
 .card-students {
   width: 100%;
   height: 100%;
-  background-color: var(--gray-chamoy)
+  background-color: var(--gray-tamusa)
 }
 
 .card-graduate {
   width: 100%;
   height: 100%;
-  background-color: var(--black-chamoy)
+  background-color: var(--black-tamusa)
 }
 
 .card-parents {
   width: 100%;
   height: 100%;
-  background-color: var(--maroon-chamoy);
+  background-color: var(--maroon-tamusa);
 }
 
 .card-body {
@@ -454,7 +454,7 @@ a:hover~.img-wrapper {
   line-height: 47px;
   display: flex;
   align-items: center;
-  color: var(--white-chamoy)
+  color: var(--white-tamusa)
 }
 
 .card-text a {
@@ -463,7 +463,7 @@ a:hover~.img-wrapper {
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   text-decoration: none;
 }
 
@@ -490,7 +490,7 @@ a:hover~.img-wrapper {
 }
 
 .passion-bg {
-  background-image: url('../assets/tamusa-baj-tabmenu-bg\ 1.png');
+  background-image: url('../assets/passion/tamusa-baj-tabmenu-bg\ 1.png');
   background-size: 100% 100%;
 }
 
@@ -511,8 +511,8 @@ a:hover~.img-wrapper {
   font-weight: 500;
   font-size: 18px;
   line-height: 125%;
-  color: var(--white-chamoy);
-  background-color: var(--gray-chamoy);
+  color: var(--white-tamusa);
+  background-color: var(--gray-tamusa);
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -558,7 +558,7 @@ a:hover~.img-wrapper {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
   margin: 0;
 }
 
@@ -570,20 +570,20 @@ a:hover~.img-wrapper {
   line-height: 125%;
   margin: 0 auto;
   text-align: center;
-  background-color: var(--white-chamoy);
+  background-color: var(--white-tamusa);
   padding: 25px 0;
 }
 
 
 .tab-content-view a {
-  color: var(--maroon-chamoy);
+  color: var(--maroon-tamusa);
   text-decoration: underline;
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  background-color: var(--maroon-chamoy);
-  color: var(--white-chamoy);
+  background-color: var(--maroon-tamusa);
+  color: var(--white-tamusa);
 }
 
 .passion-mobile {
@@ -596,8 +596,8 @@ a:hover~.img-wrapper {
   font-weight: 500;
   font-size: 18px;
   line-height: 125%;
-  color: var(--white-chamoy);
-  background-color: var(--gray-chamoy);
+  color: var(--white-tamusa);
+  background-color: var(--gray-tamusa);
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -608,17 +608,17 @@ a:hover~.img-wrapper {
 
 .accordion-button:focus {
   z-index: 3;
-  border-color: var(--maroon-chamoy);
+  border-color: var(--maroon-tamusa);
   outline: 0;
 }
 
 .accordion-button:not(.collapsed) {
-  color: var(--white-chamoy);
-  background-color: var(--maroon-chamoy);
+  color: var(--white-tamusa);
+  background-color: var(--maroon-tamusa);
 }
 
 .accordion-button:focus {
-  box-shadow: var(--maroon-chamoy);
+  box-shadow: var(--maroon-tamusa);
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -754,7 +754,7 @@ a:hover~.img-wrapper {
   line-height: 47px;
   align-items: center;
   text-align: center;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
 }
 
 
@@ -777,7 +777,7 @@ a:hover~.img-wrapper {
   margin: 25px auto;
   font-style: normal;
   font-size: var(--font-title-h2);
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
 
 }
 
@@ -791,7 +791,7 @@ a:hover~.img-wrapper {
   display: flex;
   align-items: center;
   text-align: center;
-  color: var(--white-chamoy)
+  color: var(--white-tamusa)
 }
 
 .cost-content {
@@ -825,7 +825,7 @@ a:hover~.img-wrapper {
   line-height: 47px;
   align-items: center;
   text-align: center;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
   margin-top: 20px;
 }
 
@@ -838,7 +838,7 @@ a:hover~.img-wrapper {
   display: flex;
   align-items: center;
   text-align: center;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
   margin: 0;
 }
 
@@ -851,13 +851,13 @@ a:hover~.img-wrapper {
 .admitted-content a,
 .banner-footer a,
 .paying a {
-  background-color: var(--maroon-chamoy);
+  background-color: var(--maroon-tamusa);
   font-family: var(--font-family-title);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 125%;
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   margin-top: 25px;
   padding: 10px 20px;
   border-color: none;
@@ -876,7 +876,7 @@ a:hover~.img-wrapper {
   line-height: 47px;
   align-items: center;
   text-align: center;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
 }
 
 .live h4 {
@@ -890,7 +890,7 @@ a:hover~.img-wrapper {
   font-size: 20px;
   line-height: 125%;
   text-align: center;
-  color: var(--black-chamoy);
+  color: var(--black-tamusa);
   margin: 20px 0;
 }
 
@@ -910,7 +910,7 @@ a:hover~.img-wrapper {
   font-weight: 500;
   font-size: var(--font-title-h2);
   line-height: 100%;
-  color: var(--black-chamoy)
+  color: var(--black-tamusa)
 }
 
 .testimonials-bg {
@@ -930,7 +930,7 @@ a:hover~.img-wrapper {
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
 }
 
 
@@ -958,7 +958,7 @@ a:hover~.img-wrapper {
 }
 
 footer {
-  background-image: url('../assets/tamusa-footer-bg-1.png');
+  background-image: url('../assets/footer/tamusa-footer-bg-1.png');
   background-repeat: repeat;
   display: flex;
   justify-content: space-between;
@@ -967,7 +967,7 @@ footer {
 }
 
 .info-footer p {
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   text-align: left;
   margin: 0;
 }
@@ -979,7 +979,7 @@ footer {
 }
 
 .info-footer-2 p {
-  color: var(--white-chamoy);
+  color: var(--white-tamusa);
   text-align: right;
   margin: 0;
 }
@@ -1339,7 +1339,7 @@ footer {
     font-weight: 500;
     font-size: 72px;
     line-height: 100%;
-    color: var(--white-chamoy);
+    color: var(--white-tamusa);
     padding-top: 120px;
     padding-left: 78px;
   }
